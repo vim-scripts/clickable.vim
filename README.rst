@@ -1,3 +1,7 @@
+**NOTE!!!**
+    Vim.org version have bugs, don't use it now.
+    (I cannot login to fix it.)
+
 Clickable.vim
 =============
     
@@ -5,9 +9,13 @@ Clickable.vim
 
     -- clickable.vim
 
-:version: 0.65
+:version: 0.66
 
 A vim plugin to make things in vim clickable.
+
+.. image :: http://i.imgur.com/9T91tLb.gif
+
+
 
 Usage
 -----
@@ -17,6 +25,8 @@ By default, folding/links/files are made clickable:
 **Links:**
     
     rykka@foxmail.com
+
+    http://127.0.0.1:3000
 
     www.google.com
 
@@ -35,6 +45,9 @@ By default, folding/links/files are made clickable:
 You can use ``<2-leftmouse>`` or ``<CR>`` to open them.
 
 Combine with ``Shift`` and ``Control`` can also be used.
+
+Whilst ``Shift`` means split,
+And ``Control`` means create nonexists without confirm.
 
 Install
 -------
@@ -74,7 +87,8 @@ Options
 
     default ``1``
 
-    When file is nonexists, confirm for creation
+    When file is nonexists, confirm for creation, When using Ctrl,
+    This will be ignored.
 
 "g:clickable_browser" 
 
