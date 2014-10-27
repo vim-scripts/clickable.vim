@@ -1,7 +1,13 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=5000
 
-A vim plugin to make things in vim clickable.
+Make things clickable, even in vim.
+
+default ones are urls and files , and you can define your own clickable things. 
+
+for example, with additional bundles installed(https://github.com/Rykka/clickable-things),
+clicking the 'Bundle "xxx/yyy"' will jump to the '~/.vim/bundle/yyy' directory directly.
 
 .. image :: http://i.imgur.com/9T91tLb.gif
 
 See details in github: https://github.com/Rykka/clickable.vim
+
